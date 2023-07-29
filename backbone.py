@@ -62,8 +62,8 @@ class LResNetXEIR(nn.Module):
         self.bn5 = nn.BatchNorm1d(512, affine=True)
         self.bn5.weight.requires_grad = False
 
-        # self.loss = Normalized_Softmax_Loss(512, num_classes)
-        self.loss = Unified_Cross_Entropy_Loss(512, num_classes)
+        self.loss = Normalized_Softmax_Loss(512, num_classes)
+        # self.loss = Unified_Cross_Entropy_Loss(512, num_classes)
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):

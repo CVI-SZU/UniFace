@@ -12,6 +12,8 @@ unzip faces_webface_112x112.zip
 
 modify the 'data_path' in train.py
 
+choose and replace 'loss' in backbone.py
+
 python train.py
 
 3. **Test model**

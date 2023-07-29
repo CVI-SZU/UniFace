@@ -43,7 +43,7 @@ class Hyperparameters():
     def __init__(self):
         self.cuda = True
         self.cudnn = False
-        self.visible_devices = "2"
+        self.visible_devices = "0"
         self.fp16 = True
         self.base_lr = 0.1
         self.momentum = 0.9
@@ -66,8 +66,8 @@ class Hyperparameters():
         self.workers = 2
         self.num_classes = 10572
         self.model_name = 'LResNet50EIR'
-        self.model_dir = './Models-LResNet50EIR-2'
-        self.log_dir = './log-LResNet50EIR-2'
+        self.model_dir = './Models-LResNet50EIR'
+        self.log_dir = './log-LResNet50EIR'
 
 
 def main():
