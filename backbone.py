@@ -3,7 +3,7 @@
 import torch
 import torch.nn as nn
 
-from head import Normalized_Softmax_Loss, Unified_Cross_Entropy_Loss
+from head import Normalized_Softmax_Loss, Normalized_BCE_Loss, Unified_Cross_Entropy_Loss
 
 def conv3x3(in_planes, out_planes, stride=1, groups=1):
     """3x3 convolution with padding"""
@@ -63,6 +63,7 @@ class LResNetXEIR(nn.Module):
         self.bn5.weight.requires_grad = False
 
         self.loss = Normalized_Softmax_Loss(512, num_classes)
+        # self.loss = Normalized_BCE_Loss(512, num_classes)
         # self.loss = Unified_Cross_Entropy_Loss(512, num_classes)
 
         for m in self.modules():
