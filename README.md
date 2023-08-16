@@ -1,7 +1,7 @@
 ## Introduction
 
 <div align="center">
-  <img src="figures/UnitFace_Figure1.pdf" width="600"/>
+  <img src="figures/figure1.png" width="600"/>
 </div>
 
 
@@ -25,7 +25,9 @@ download [CASIA-Webface](https://drive.google.com/file/d/1KxNCrXzln0lal3N4JiYl9c
 
 
 2. **Train model**
-
+    ```console
+    unzip faces_webface_112x112.zip
+    ```
 unzip faces_webface_112x112.zip
 
 modify the 'data_path' in train.py
