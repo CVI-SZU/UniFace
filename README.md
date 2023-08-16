@@ -21,7 +21,7 @@
 
 1. **Download dataset**
 
-  Download [CASIA-Webface](https://drive.google.com/file/d/1KxNCrXzln0lal3N4JiYl9cFOIhT78y1l/view?usp=sharing) preprocessed by [insightface](https://github.com/deepinsight/insightface/blob/master/recognition/_datasets_/README.md).
+    Download [CASIA-Webface](https://drive.google.com/file/d/1KxNCrXzln0lal3N4JiYl9cFOIhT78y1l/view?usp=sharing) preprocessed by [insightface](https://github.com/deepinsight/insightface/blob/master/recognition/_datasets_/README.md).
 
 
 2. **Train model**
@@ -29,10 +29,9 @@
     unzip faces_webface_112x112.zip
     ```
 
-  Modify the 'data_path' in train.py
+    Modify the 'data_path' in train.py
 
-  Choose and uncomment 'loss' in backbone.py
-
+    Choose and uncomment 'loss' in backbone.py
     ```console
     python train.py
     ```
@@ -43,4 +42,4 @@
     zip model.zip model.onnx
     ```
 
-  Upload model.zip to MFR Ongoing
+    Upload model.zip to MFR Ongoing
