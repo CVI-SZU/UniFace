@@ -1,6 +1,7 @@
 ## Introduction
-    UniFace: Unified Cross-Entropy Loss for Deep Face Recognition
-    UnitFace,the face recognition model trained with the proposed UCE loss.
+
+UniFace: Unified Cross-Entropy Loss for Deep Face Recognition
+UnitFace,the face recognition model trained with the proposed UCE loss.
 
 <div align="center">
   <img src="figures/figure1.png" width="600"/>
