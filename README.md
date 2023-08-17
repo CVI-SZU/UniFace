@@ -15,10 +15,10 @@ UnitFace,the face recognition model trained with the proposed UCE loss.
 | $L_{\text{sl}}$               | \xmark | \xmark |   \xmark  | \xmark |      18.52     |      71.53     |      98.30     |
 | $L_{\text{bce}}$              | \xmark | \xmark |   \xmark  | \xmark |      18.90     |      69.68     |      98.68     |
 | $L_{\text{uce}}$              | \cmark | \xmark |   \xmark  | \xmark |      19.59     |      74.80     |      98.45     |
-| $L_{\text{sl-m}}$             | \xmark | \cmark |   \xmark  | \xmark |      41.80     |      46.17     |      99.50     |
-| $L_{\text{bce-m}}$            | \xmark | \cmark |   \xmark  | \xmark |      45.35     |      83.88     |      99.46     |
-| $L_{\text{uce-m}}$            | \cmark | \cmark |   \xmark  | \xmark |      47.45     |      88.65     |    **99.56**   |
-| $L_{\text{uce-mb-}{\lambda}}$ | \cmark | \cmark |  &#10004; | \xmark |      48.54     |    **88.96**   |      99.55     |
+| $L_{\text{sl-m}}$             | \xmark | \cmark |   \xmark  | &#10005; |      41.80     |      46.17     |      99.50     |
+| $L_{\text{bce-m}}$            | \xmark | \cmark |   \xmark  | &#10006; |      45.35     |      83.88     |      99.46     |
+| $L_{\text{uce-m}}$            | \cmark | \cmark |   \xmark  | &#10007; |      47.45     |      88.65     |    **99.56**   |
+| $L_{\text{uce-mb-}{\lambda}}$ | \cmark | \cmark |  &#10004; | &#10008; |      48.54     |    **88.96**   |      99.55     |
 | $L_{\text{uce-mb-}{r}}$       | \cmark | \cmark |   \xmark  | \cmark |    **48.72**   |      88.94     |      99.30     |
 
 
