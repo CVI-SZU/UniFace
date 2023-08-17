@@ -1,6 +1,7 @@
 ## Introduction
 
-This is the official PyTorch implementation of the ICCV 2023 paper [UniFace: Unified Cross-Entropy Loss for Deep Face Recognition](http://).
+This is the official PyTorch implementation of the ICCV 2023 paper.
+[UniFace: Unified Cross-Entropy Loss for Deep Face Recognition](http://uniface.com)
 
 <div align="center">
   <img src="figures/figure1.png" width="600"/>
