@@ -18,7 +18,7 @@ UnitFace,the face recognition model trained with the proposed UCE loss.
 | $L_{\text{sl-m}}$             | \xmark | \cmark |   \xmark  | \xmark |      41.80     |      46.17     |      99.50     |
 | $L_{\text{bce-m}}$            | \xmark | \cmark |   \xmark  | \xmark |      45.35     |      83.88     |      99.46     |
 | $L_{\text{uce-m}}$            | \cmark | \cmark |   \xmark  | \xmark |      47.45     |      88.65     |    **99.56**   |
-| $L_{\text{uce-mb-}{\lambda}}$ | \cmark | \cmark |  & #1004; | \xmark |      48.54     |    **88.96**   |      99.55     |
+| $L_{\text{uce-mb-}{\lambda}}$ | \cmark | \cmark |  &#10004; | \xmark |      48.54     |    **88.96**   |      99.55     |
 | $L_{\text{uce-mb-}{r}}$       | \cmark | \cmark |   \xmark  | \cmark |    **48.72**   |      88.94     |      99.30     |
 
 
