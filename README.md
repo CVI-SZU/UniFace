@@ -4,6 +4,8 @@
 
 [UniFace: Unified Cross-Entropy Loss for Deep Face Recognition.pdf](paper/05138.pdf)
 
+[Supplementary.pdf](paper/05138-supp.pdf)
+
 
 ## Get started
 
@@ -27,7 +29,9 @@
     python pytorch2onnx.py
     zip model.zip model.onnx
     ```
-    Upload model.zip to MFR Ongoing
+    Upload model.zip to [MFR Ongoing](http://iccv21-mfr.com/#/leaderboard/academic) and then wait for the results.
+
+    We here provide a pre-trained model ([ResNet-50](paper/model.zip)) for easy and directdevelopment. This model is trained on CASIA-WebFace and achieved 88% on IJB-C and 99% on LFW.
 
 ## Citation
 
