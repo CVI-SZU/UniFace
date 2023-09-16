@@ -32,7 +32,7 @@
     ```
     Upload model.zip to [MFR Ongoing](http://iccv21-mfr.com/#/leaderboard/academic) and then wait for the results.
 
-    We here provide a pre-trained model ([ResNet-50](paper/model.zip)) for easy and directdevelopment. This model is trained on CASIA-WebFace and achieved 48.42% on MR-All and 99.56% on LFW.
+    We provide a pre-trained model(ResNet-50) on [Google Drive](https://drive.google.com/file/d/1vXZBy_NSG5-jtvsHkoeFVeaepRRE5Mo5/view?usp=drive_link) for easy and directdevelopment. This model is trained on CASIA-WebFace and achieved 48.42% on MR-All and 99.56% on LFW.
 
 ## Citation
 
