@@ -39,12 +39,6 @@
 If you find **UniFace** useful in your research, please consider to cite:
 
   ```bibtex
-  @InProceedings{UniFace,
-	title = {UniFace: Unified Cross-Entropy Loss for Deep Face Recognition},
-	author = {Jiancan Zhou, Xi Jia, Qiufu Li, Linlin Shen, Jinming Duan},
-	booktitle = {ICCV},
-	year = {2023}
-  }
   @InProceedings{Zhou_2023_ICCV,
     author    = {Zhou, Jiancan and Jia, Xi and Li, Qiufu and Shen, Linlin and Duan, Jinming},
     title     = {UniFace: Unified Cross-Entropy Loss for Deep Face Recognition},
