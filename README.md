@@ -20,7 +20,7 @@
 
     Modify the 'data_path' in [train.py](train.py) (Line 56)
 
-    Select and uncomment the 'loss' in [backbone.py](train.py) (Line 67)
+    Select and uncomment the 'loss' in [backbone.py](backbone.py) (Line 67)
     ```console
     python train.py
     ```
