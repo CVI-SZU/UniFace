@@ -189,7 +189,7 @@ def train(train_loader, model, optimizer, epoch, loss_scale, scaler):
                 optimizer.zero_grad()
                 if optimizer.state[optimizer.param_groups[-1]["params"][0]]:
                     optimizer.state[optimizer.param_groups[-1]["params"][0]]["momentum_buffer"][:] = 0
-                    optimizer.state[optimizer.param_groups[-1]["params"][0]]["momentum_buffer"][partial_index] = model.loss.weight_mom[partial_index]
+                    optimizer.state[optimizer.param_groups[-1]["params"][0]]["momentum_buffer"][partial_index] = net.loss.weight_mom[partial_index]
             if (j + 1) == len(label_splits):
                 if scaler is None:
                     (face_loss * loss_scale * batch_scale).backward()
@@ -205,7 +205,7 @@ def train(train_loader, model, optimizer, epoch, loss_scale, scaler):
                     scaler.step(optimizer)
                     scaler.update()
                 net.restrict_weights()
-                model.loss.weight_mom[partial_index] = optimizer.state[optimizer.param_groups[-1]["params"][0]]["momentum_buffer"][partial_index]
+                net.loss.weight_mom[partial_index] = optimizer.state[optimizer.param_groups[-1]["params"][0]]["momentum_buffer"][partial_index]
             else:
                 if scaler is None:
                     (face_loss * loss_scale).backward()
