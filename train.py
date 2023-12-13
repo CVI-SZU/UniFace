@@ -44,6 +44,7 @@ class Hyperparameters():
         self.cuda = True
         self.cudnn = False
         self.visible_devices = '0'
+        # self.visible_devices = '0, 1'
         self.fp16 = True
         self.base_lr = 0.1
         self.momentum = 0.9
@@ -57,6 +58,8 @@ class Hyperparameters():
         self.img_size = [112, 112]
         self.train_batch_size = 128
         self.bs_mult = 4
+        # self.train_batch_size = 256
+        # self.bs_mult = 2
         self.drop_last = True
         self.steps = [16, 24]
         self.start_epoch = 0
