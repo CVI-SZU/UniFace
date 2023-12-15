@@ -9,6 +9,8 @@
 
 ## Get started
 
+**Requirement: [PyTorch](https://pytorch.org/get-started/previous-versions/) >= 1.8.1**
+
 1. **Prepare dataset**
 
     Download [CASIA-Webface](https://drive.google.com/file/d/1KxNCrXzln0lal3N4JiYl9cFOIhT78y1l/view?usp=sharing) preprocessed by [insightface](https://github.com/deepinsight/insightface/blob/master/recognition/_datasets_/README.md).
